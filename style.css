@@ -86,3 +86,45 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+
+/* features section */
+.features-container {
+  width: 100%;
+}
+.features-content {
+  margin: 0 auto;
+  width: 1340px;
+}
+.features-content .feature-header {
+  text-align: center;
+  width: 594px;
+  padding: 55px 0;
+  margin: 0 auto;
+}
+.features-content .features-main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.contents .feature-img {
+  vertical-align: middle;
+  border-radius: 300px 300px 0 0;
+  height: 500px;
+  display: flex;
+  align-items: end;
+  padding: 0px 35px;
+}
+.contents p {
+  text-align: center;
+  padding: 8px 0;
+}
+.contents #pink {
+  background: #ffc3d0;
+}
+.contents #blue {
+  background: rgb(205, 205, 255);
+}
+.contents #green {
+  background: rgb(201, 255, 201);
+}
